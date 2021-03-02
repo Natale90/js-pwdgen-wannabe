@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <title></title>
+  </head>
+  <body>
+
+  <div class="card">
+
+    <section>
+      <h3 id="nome"></h3>
+    </section>
+
+    <section>
+      <h3 id="cognome"></h3>
+    </section>
+
+    <section>
+      <h3 id="colore"></h3>
+    </section>
+
+  </div>
+
+
+  <script type="text/javascript">
+
+    var nome = prompt("Il tuo nome");
+    console.log(nome);
+
+    var cognome = prompt("Il tuo cognome");
+    console.log(cognome);
+
+    var color = prompt("Il tuo colore preferito");
+    console.log(color);
+
+    document.getElementById('nome').innerHTML = ("nome utente: " + nome);
+    document.getElementById('cognome').innerHTML = ("cognome utente: " + cognome);
+    document.getElementById('colore').innerHTML = ("colore preferito: " + color);
+  </script>
+
+
+  </body>
+</html>
